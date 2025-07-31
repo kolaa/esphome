@@ -15,7 +15,7 @@ static const uint8_t CMD_MAKE_MEASURE = 0x0A;
 static const uint8_t MASK_MEASURE_READY = 0x08;
 static const float CONVERT_PRESSURE = (float) 0x800000;
 static const float SCALE_PRESSURE = 1.0e6;
-static const float SCALE_TEMPERATURE = 100.0;
+static const float SCALE_TEMPERATURE = 256.0;
 
 static const int CHECK_DELAY = 5u;
 static const int CHECK_ATTEMPTS = 6u;
